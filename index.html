@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Hogwarts Sorting Hat Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hogwarts Sorting hat</h1>
+        <p>Which Hogwarts house will the hat pick for you?</p>
+
+      <form id="quiz">
+        <label for="Name">Name</label>
+        <input id="name" type="text">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="nonbinary">Non-binary</option>
+        </select>
+        <select id="color">
+          <option value="black">black</option>
+          <option value="white">white</option>
+          <option value="blue">blue</option>
+          <option value="greem">green</option>
+          <option value="yellow">yellow</option>
+        </select>
+
+        <button type="submit" class="btn">Reveal my celebrity partner!</button>
+      </form>
+
+      <div id="showAnswer">
+        <div class="Ravenclaw">
+          <span id="spanR">
+            <h1>Ravenclaw works</h1>
+          </span>
+        </div>
+        <div class="Slytherin">
+          <h1>Slytherin works</h1>
+        </div>
+        <div class="Gryffindor">
+          <h1>Gryffindor works</h1>
+        </div>
+        <div class="Hufflepuff">
+          <h1>Hufflepuff works</h1>
+       </div>
+      </div>
+
+    </div>
+  </body>
+
+  </html>
